@@ -55,7 +55,7 @@ namespace FindReplaceTesting
                 {
                     var editor = host.GetTextEditor();
 
-                    //AvalonEdit.Pieces.LineNumberMarginWithCommands.Install(editor);
+                    AvalonEdit.Pieces.AutoComplete.Install(editor);
                 }
             });
 
